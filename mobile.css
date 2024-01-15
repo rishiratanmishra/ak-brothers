@@ -1,0 +1,561 @@
+/* Responsive styles for smaller screens */
+@media (max-width: 650px) {
+  .navbar {
+    margin: 0px;
+    border-radius: 0;
+    box-shadow: 1px 1px grey;
+  }
+
+  .navbar-brand img {
+    width: 25rem;
+    
+    /* height: 5rem; */
+  }
+  /* Navbar adjustments */
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 0;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #271132;
+  }
+
+  .bar {
+    color: #fff;
+    background-color: white;
+  }
+
+  .navbar-menu a {
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+  }
+
+  .navbar-toggle {
+    display: flex;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.navbar-toggle {
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggle:active {
+  color: white;
+  transform: rotate(90deg);
+}
+
+/* Responsive adjustments for the Hero Section */
+@media (max-width: 768px) {
+
+  .hero-section-container {
+    display: block;
+    padding: 3rem;
+    width: 100%;
+  }
+
+
+  .left-hero-section-heading {
+    font-size: 3.5rem;
+  }
+
+
+
+
+
+
+
+
+  .right-hero-section {
+    flex-basis: 100%;
+    margin-left: 0rem;
+    margin-top: 8rem;
+  }
+
+  .quote-form-content {
+    margin-bottom: 15px;
+  }
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width:768px) {
+
+  .arrox {
+    font-size: 1rem;
+  }
+
+  .about-area {
+    padding: 1rem;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+
+
+  .about-left {
+    width: 100%;
+    padding: 2rem;
+  }
+
+
+
+  .about-thumb img {
+    width: 80%;
+  }
+
+  .about-shape {
+    top: 200px;
+    right: 10px;
+  }
+
+
+  .about-shape-two {
+    top: 200px;
+    left: 50px;
+  }
+
+  .section-sub-title h3::before {
+    position: absolute;
+    content: "";
+    right: -70px;
+    top: 9px;
+    background: #4D062F;
+    height: 2px;
+    width: 60px;
+
+  }
+
+  .about-right {
+    margin-top: 5rem;
+    width: 100%;
+    padding: 2rem;
+  }
+
+
+  .section-sub-title h3 {
+    font-size: 2rem;
+  }
+
+
+
+
+  .section-mean-title h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+
+
+  .sourcing-explain {
+    display: block;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .sourcing-explain-left {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+  }
+
+  .sourcing-explain-middle {
+    width: 100%;
+    padding: 0rem;
+    margin-top: -1rem;
+  }
+
+  .sourcing-explain-right {
+    width: 100%;
+    justify-content: left;
+    margin-top: -1rem;
+  }
+
+
+  .sourcing-explain-left h2 {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .sourcing-explain-middle {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .sourcing-explain-p {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  .product {
+    height: auto;
+  }
+
+  .product-heading {
+    font-size: 3rem;
+  }
+
+  .product-content {
+    padding: 2rem;
+  }
+
+  .product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .product-description {
+    height: auto;
+  }
+
+  .product-button {
+    width: 80%;
+  }
+
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+
+
+  /* Styles for the entire footer section */
+  .footer-section {
+    text-align: center;
+  }
+
+  /* Styles for the wrapper within the footer */
+
+  /* Styles for the top section of the footer */
+  .footer-section-top {
+    margin-top: 1rem;
+  }
+
+  /* Styles for the box containing top cards in the footer */
+  .footer-section-top-card-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  /* Styles for individual top cards in the footer */
+  .fs-top-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 70%;
+    border-radius: 10px;
+  }
+
+
+  /* Bottom Section */
+  /* Styles for the bottom section */
+  .bottom-section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Styles for the wrapper within the bottom section */
+  .bottom-section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    color: wheat;
+  }
+
+  /* Styles for individual sections */
+  .bottom-section-left,
+  .bottom-section-center,
+  .bottom-section-right {
+    flex: 1;
+    text-align: left;
+    padding: 0rem;
+  }
+
+
+
+  /* Additional styles for the left content */
+  .bottom-section-left h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--accent-color);
+  }
+
+  .bottom-section-left p {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+
+  .bottom-section-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .useful-links li {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+
+  .bottom-section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+  }
+
+  /* Additional styles for the right content */
+  .bottom-section-right h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  /* Additional styles for the map section */
+  .map {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+}
+
+
+/* Styles for medium-sized devices (768px to 1024px) */
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Navbar adjustments */
+  .navbar {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+  }
+
+  /* Hero Section adjustments */
+  .hero-section-container {
+    padding: 2rem;
+  }
+
+  .left-hero-section-heading {
+    font-size: 2.5rem;
+  }
+
+
+
+  /* About Section adjustments */
+  .about-area {
+    padding: 1rem;
+  }
+
+  .about-left {
+    width: 100%;
+    padding-left: 1rem;
+  }
+
+  .about-thumb img {
+    width: 100%;
+  }
+
+
+  .about-shape {
+    top: 200px;
+    right: 10px;
+  }
+
+
+  .about-shape-two {
+    top: 220px;
+    left: 30px;
+  }
+
+  .about-left::before {
+
+    top: -50px;
+  }
+
+  .about-right {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .section-sub-title h3 {
+    font-size: 1.5rem;
+  }
+
+  .section-mean-title h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Sourcing Section adjustments */
+
+
+  .sourcing-explain {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .sourcing-explain-left {
+    width: 30%;
+    padding: 0rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+  }
+
+  .sourcing-explain-middle {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .sourcing-explain-right {
+    width: 20%;
+    padding: 0rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+  }
+
+
+  .sourcing-explain-left h2 {
+    font-size: 3rem;
+  }
+
+  .sourcing-section {
+    padding: 3rem;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin: 0px;
+  }
+
+
+
+  .card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+
+
+  /* Product Section adjustments */
+  .product {
+    height: auto;
+  }
+
+  /* Footer Section adjustments */
+  .footer-section {
+    text-align: center;
+  }
+
+  .footer-section-top {
+    margin-top: 1rem;
+  }
+
+  .footer-section-top-card-box {
+    width: 100%;
+  }
+
+  .fs-top-card {
+    width: 100%;
+  }
+
+  .bottom-section {
+    padding: 1rem;
+  }
+
+  .bottom-section-wrapper {
+    flex-direction: column;
+  }
+
+  .bottom-section-left h2 {
+    font-size: 2rem;
+  }
+
+  .bottom-section-left p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .bottom-section-center {
+    gap: 1rem;
+  }
+
+  .useful-links li {
+    font-size: 1.5rem;
+  }
+
+  .bottom-section-right h3 {
+    font-size: 2rem;
+  }
+
+  .map {
+    margin-top: 10px;
+  }
+
+  .map iframe {
+    width: 240px;
+    height: 200px;
+    border: 0;
+    border-radius: 20px;
+  }
+
+}
